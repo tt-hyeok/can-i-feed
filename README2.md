@@ -36,10 +36,10 @@ npm run build
 
 
 ```
-// superuser 생성 SQL
-CREATE USER [유저이름] WITH superuser password [패스워드]';
+-- superuser 생성 SQL
+CREATE USER [유저이름] WITH SUPERUSER PASSWORD '[패스워드]';
 
-// 데이터베이스 생성 SQL
+-- 데이터베이스 생성 SQL
 CREATE DATABASE canifeed;
 
 ```
